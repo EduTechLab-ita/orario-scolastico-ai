@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
-import { BarChart3, TrendingUp, Clock, AlertTriangle, Users, MapPin } from 'lucide-react';
+import { BarChart3, TrendingUp, Clock, AlertTriangle, Users, MapPin, Monitor } from 'lucide-react';
 import { Schedule, Teacher, Class, Subject, Room, ScheduleMetrics } from '../../types/scheduling';
 import { AIScheduleOptimizer } from '../../lib/schedulingAlgorithm';
 

@@ -5,7 +5,7 @@ import { Input } from '../ui/input';
 import { Label } from '../ui/label';
 import { Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger } from '../ui/dialog';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
-import { Plus, Edit, Trash2, Mail, Clock, MapPin } from 'lucide-react';
+import { Plus, Edit, Trash2, Mail, Clock, MapPin, Users } from 'lucide-react';
 import { Teacher, Subject } from '../../types/scheduling';
 import { DataValidator } from '../../lib/dataValidation';
 import { generateId } from '../../lib/utils';

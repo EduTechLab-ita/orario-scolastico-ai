@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
 import { Button } from '../ui/button';
+import { Label } from '../ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '../ui/select';
 import { Calendar, Download, Eye, AlertTriangle, Users, MapPin, BookOpen } from 'lucide-react';
 import { Schedule, Teacher, Class, Subject, Room, ScheduleEntry } from '../../types/scheduling';

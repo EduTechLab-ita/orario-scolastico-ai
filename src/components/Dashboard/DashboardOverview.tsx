@@ -1,7 +1,9 @@
 import React from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../ui/card';
+import { Button } from '../ui/button';
 import { Users, GraduationCap, BookOpen, MapPin, Calendar, AlertTriangle, CheckCircle, Clock } from 'lucide-react';
 import { Teacher, Class, Subject, Room, Schedule } from '../../types/scheduling';
+import { cn } from '../../lib/utils';
 
 interface DashboardOverviewProps {
   teachers: Teacher[];
